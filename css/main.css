@@ -279,6 +279,7 @@ textarea, label {
   margin-bottom: 20px;
 }
 .page-title h2 {
+  color : white;
   font-size: 68px;
   margin-bottom: 25px;
   position: relative;
@@ -288,6 +289,7 @@ textarea, label {
 }
 .page-title p {
   font-size: 16px;
+  color :white;
 }
 .page-title .title-bg {
   color: rgba(30, 37, 48, 0.07);
