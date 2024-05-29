@@ -299,8 +299,16 @@
 }
 
 .history-scroller {
-	padding-top: 82px;
-	max-height: 377px;
+	max-height: 100vh;
+	overflow-y: auto;
+
+	@media only screen and (max-width: 600px) {
+		max-height: 80vh;
+		overflow-y: scroll;
+	}	
+	
+	//padding-top: 82px;
+	//max-height: 377px;
 }
 
 .history-item {
